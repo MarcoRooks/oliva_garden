@@ -1,0 +1,19 @@
+.body.orders{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:10px;
+    background-color: beige;
+    margin-left: auto;
+}
+.orders-card-buttons{
+    display:flex;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.container-orders{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}

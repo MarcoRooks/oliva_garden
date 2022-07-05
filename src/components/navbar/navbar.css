@@ -1,0 +1,58 @@
+.container-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;    background-color: #204c1c;
+    align-items: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.menu-icon{
+    display: none;
+}
+
+h3{
+    align-items: left;
+    padding: 2%;
+    max-width: 200px;
+    color:white;
+}
+
+.buttons{
+    display: flex;
+    margin:0 20px 0 0;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+.logo{
+    margin:0 0 0 20px;
+}
+
+@media screen and (max-width:500px){
+    .menu-icon{
+        display:block;
+        padding: 20px; 
+    }
+    .buttons{
+        flex-direction: column;
+        width:100%;
+        position: absolute;
+        background-color: #204c1c;
+        padding: 15px 0px;
+        top: 68.5px;
+        transition: all 0.1s ease-in-out;
+    }
+    .buttons Button{
+        width: 100%;
+        position: absolute;
+    }
+    .buttons.close{
+        top: -100%;
+        transition: all 0.1s ease-in-out;
+    }
+}
+
+
+

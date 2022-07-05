@@ -1,0 +1,24 @@
+.home{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    height: 42vh;
+    position: relative;
+}
+.photos{
+    display:flex;
+    justify-content: center;
+    position: relative;
+    align-items:center;
+    margin:10px;
+}
+.swiper-button-next {
+    --swiper-theme-color: #204c1c;
+}
+.swiper-button-prev {
+    --swiper-theme-color: #204c1c;
+}
